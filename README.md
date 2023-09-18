@@ -1,2 +1,2 @@
 # repository
-generic repository mongodb c
+generic repository mongodb
