@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryMongo_Generic", "RepositoryMongo_Generic.csproj", "{E2D691F2-3DFE-4532-954E-539D1D31F492}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepositoryMongo_Generic", "RepositoryMongo_Generic.csproj", "{E2D691F2-3DFE-4532-954E-539D1D31F492}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryMongo_Generic.Tests", "..\RepositoryMongo_Generic.Tests\RepositoryMongo_Generic.Tests.csproj", "{C589B13D-C3A5-4BC6-B690-FA5D0CAC5083}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E2D691F2-3DFE-4532-954E-539D1D31F492} = {E2D691F2-3DFE-4532-954E-539D1D31F492}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{E2D691F2-3DFE-4532-954E-539D1D31F492}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2D691F2-3DFE-4532-954E-539D1D31F492}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2D691F2-3DFE-4532-954E-539D1D31F492}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C589B13D-C3A5-4BC6-B690-FA5D0CAC5083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C589B13D-C3A5-4BC6-B690-FA5D0CAC5083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C589B13D-C3A5-4BC6-B690-FA5D0CAC5083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C589B13D-C3A5-4BC6-B690-FA5D0CAC5083}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
